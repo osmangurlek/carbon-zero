@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-field {
+    @apply py-2 px-4 border rounded-lg focus:outline-none focus:border-blue-500;
+}
+
+.button {
+    @apply mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700;
+}
